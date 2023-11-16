@@ -4,10 +4,10 @@ import imageDesktop from "../assets/images/image-web-3-desktop.jpg";
 const MainArticle = () => {
 	return (
 		<section className="mb-[60px]">
-			<picture>
+			<picture className="flex">
 				<source media="(max-width: 640px)" srcSet={imageMobile} />
-				<source media="(min-width: 641px)" srcSet={imageDesktop} />
-				<img src={imageMobile} alt="Articulo principal imagen"></img>
+				<source media="(min-width: 641px)" srcSet={imageDesktop } />
+				<img src={imageMobile} alt="Articulo principal imagen" className="grow"></img>
 			</picture>
 			<div className="sm:flex mt-8">
 				<div className="flex-1">

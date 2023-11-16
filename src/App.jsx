@@ -5,16 +5,14 @@ import NewContainer from "./components/NewContainer";
 
 function App() {
 	return (
-		<main className="px-4 pt-6">
+		<main className="px-4 pt-6 container mx-auto">
 			<Header />
-			<div className="flex flex-col">
-				<div className="lg:flex justify-center sm:gap-8 mb-[60px]">
-					<MainArticle />
-					<NewContainer />
-				</div>
-
-				<ArticleContainer />
+			<div className="lg:flex justify-center sm:gap-8 mb-[60px]">
+				<MainArticle />
+				<NewContainer />
 			</div>
+
+			<ArticleContainer />
 		</main>
 	);
 }

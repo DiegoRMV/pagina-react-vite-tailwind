@@ -2,7 +2,7 @@ import Article from "./Article";
 
 const ArticleContainer = () => {
 	return (
-		<section className="md:flex mt-6 justify-around">
+		<section className="lg:flex justify-around">
 			<Article />
 			<Article />
 			<Article />
